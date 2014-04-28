@@ -1,0 +1,20 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    builder (3.2.2)
+    hashie (2.1.1)
+    mini_portile (0.5.3)
+    nokogiri (1.6.1)
+      mini_portile (~> 0.5.0)
+    ruby_kml (0.1.7)
+      builder
+      nokogiri
+    soda-ruby (0.2.12)
+      hashie
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ruby_kml
+  soda-ruby
