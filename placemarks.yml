@@ -1,0 +1,731 @@
+---
+- name: Godthaab, Greenland
+  latitude: 64.190922
+  longitude: -51.678064
+- name: Keflavik, Iceland
+  latitude: 63.985
+  longitude: -22.605556
+- name: Reykjavik, Iceland
+  latitude: 64.13
+  longitude: -21.940556
+- name: Edmonton, Canada
+  latitude: 53.309723
+  longitude: -113.579722
+- name: Inuvik, Canada
+  latitude: 68.304167
+  longitude: -133.482778
+- name: Montreal, Canada
+  latitude: 45.470556
+  longitude: -73.740833
+- name: Vancouver, Canada
+  latitude: 49.193889
+  longitude: -123.184444
+- name: Whitehorse, Canada
+  latitude: 60.709553
+  longitude: -135.067269
+- name: Calgary, Canada
+  latitude: 51.113888
+  longitude: -114.020278
+- name: Victoria, Canada
+  latitude: 48.646944
+  longitude: -123.425833
+- name: Munich, Germany
+  latitude: 48.353783
+  longitude: 11.786086
+- name: Helsinki, Finland
+  latitude: 60.254558
+  longitude: 25.042828
+- name: Helsinki, Finland
+  latitude: 60.317222
+  longitude: 24.963333
+- name: Bristol, United Kingdom
+  latitude: 51.382669
+  longitude: -2.719089
+- name: London, United Kingdom
+  latitude: 51.4775
+  longitude: -0.461389
+- name: Blackpool, United Kingdom
+  latitude: 53.771667
+  longitude: -3.028611
+- name: Edinburgh, United Kingdom
+  latitude: 55.95
+  longitude: -3.3725
+- name: Dublin, Ireland
+  latitude: 53.421333
+  longitude: -6.270075
+- name: Copenhagen, Denmark
+  latitude: 55.617917
+  longitude: 12.655972
+- name: Oslo, Norway
+  latitude: 60.193917
+  longitude: 11.100361
+- name: Kirkenes, Norway
+  latitude: 69.725781
+  longitude: 29.891295
+- name: Svalbard, Norway
+  latitude: 78.246111
+  longitude: 15.465556
+- name: Tromso, Norway
+  latitude: 69.683333
+  longitude: 18.918919
+- name: Warsaw, Poland
+  latitude: 52.16575
+  longitude: 20.967122
+- name: Umea, Sweden
+  latitude: 63.791828
+  longitude: 20.282758
+- name: Orebro, Sweden
+  latitude: 59.223733
+  longitude: 15.037956
+- name: Stockholm, Sweden
+  latitude: 59.651944
+  longitude: 17.918611
+- name: Johannesburg, South Africa
+  latitude: -26.139166
+  longitude: 28.246
+- name: Pilanesberg, South Africa
+  latitude: -25.333822
+  longitude: 27.173358
+- name: Antananarivo, Madagascar
+  latitude: -18.79695
+  longitude: 47.478806
+- name: Libreville, Gabon
+  latitude: 0.4586
+  longitude: 9.412283
+- name: Tenerife, Spain
+  latitude: 28.044475
+  longitude: -16.572489
+- name: Casablanca, Morocco
+  latitude: 33.367467
+  longitude: -7.589967
+- name: Dar Es Salaam, Tanzania
+  latitude: -6.878111
+  longitude: 39.202625
+- name: Kilimanjaro, Tanzania
+  latitude: -3.429406
+  longitude: 37.074461
+- name: Madrid, Spain
+  latitude: 40.493556
+  longitude: -3.566764
+- name: Treviso, Italy
+  latitude: 45.6484
+  longitude: 12.194422
+- name: Rome, Italy
+  latitude: 41.804475
+  longitude: 12.250797
+- name: Vienna, Austria
+  latitude: 48.110278
+  longitude: 16.569722
+- name: Lisbon, Portugal
+  latitude: 38.781311
+  longitude: -9.135919
+- name: Zurich, Switzerland
+  latitude: 47.464722
+  longitude: 8.549167
+- name: Istanbul, Turkey
+  latitude: 40.976922
+  longitude: 28.814606
+- name: Guatemala City, Guatemala
+  latitude: 14.583272
+  longitude: -90.527475
+- name: Tegucigalpa, Honduras
+  latitude: 14.060883
+  longitude: -87.217197
+- name: Mexico City, Mexico
+  latitude: 19.436303
+  longitude: -99.072097
+- name: Managua, Nicaragua
+  latitude: 12.141494
+  longitude: -86.168178
+- name: Panama City, Panama
+  latitude: 9.071364
+  longitude: -79.383453
+- name: San Jose, Costa Rica
+  latitude: 9.993861
+  longitude: -84.208806
+- name: Herat, Afghanistan
+  latitude: 34.210017
+  longitude: 62.2283
+- name: Abu Dhabi, United Arab Emirates
+  latitude: 24.432972
+  longitude: 54.651138
+- name: Tokyo, Japan
+  latitude: 35.764722
+  longitude: 140.386389
+- name: Sapporo, Japan
+  latitude: 42.7752
+  longitude: 141.692283
+- name: Osaka, Japan
+  latitude: 34.785528
+  longitude: 135.438222
+- name: Manila, Philippines
+  latitude: 14.508647
+  longitude: 121.019581
+- name: Sao Paulo, Brazil
+  latitude: -23.432075
+  longitude: -46.469511
+- name: Punta Arenas, Chile
+  latitude: -53.002642
+  longitude: -70.854586
+- name: Santiago, Chile
+  latitude: -33.392975
+  longitude: -70.785803
+- name: Galapagos, Ecuador
+  latitude: -0.453758
+  longitude: -90.265914
+- name: Guayaquil, Ecuador
+  latitude: -2.157419
+  longitude: -79.883558
+- name: Bogota, Colombia
+  latitude: 4.701594
+  longitude: -74.146947
+- name: McCarthy, United States
+  latitude: 61.4370608
+  longitude: -142.90307372
+- name: La Paz, Bolivia
+  latitude: -16.513339
+  longitude: -68.192256
+- name: Zandery, Suriname
+  latitude: 5.452831
+  longitude: -55.187783
+- name: Cayenne, French Guiana
+  latitude: 4.819808
+  longitude: -52.360447
+- name: Seward, United States
+  latitude: 60.1269383
+  longitude: -149.4188122
+- name: Lima, Peru
+  latitude: -12.021889
+  longitude: -77.114319
+- name: Arequipa, Peru
+  latitude: -16.341072
+  longitude: -71.583083
+- name: Caracas, Venezuela
+  latitude: 10.603117
+  longitude: -66.990583
+- name: Port-of-spain, Trinidad and Tobago
+  latitude: 10.595369
+  longitude: -61.337242
+- name: Yakutat, United States
+  latitude: 59.3012
+  longitude: -139.3937
+- name: Petropavlovsk, Russia
+  latitude: 53.167889
+  longitude: 158.453669
+- name: Vladivostok, Russia
+  latitude: 43.398953
+  longitude: 132.148017
+- name: St. Petersburg, Russia
+  latitude: 59.800292
+  longitude: 30.262503
+- name: Moscow, Russia
+  latitude: 55.972642
+  longitude: 37.414589
+- name: Delhi, India
+  latitude: 28.5665
+  longitude: 77.103088
+- name: Bangkok, Thailand
+  latitude: 13.912583
+  longitude: 100.60675
+- name: Pattaya, Thailand
+  latitude: 12.679944
+  longitude: 101.005028
+- name: Kengtung, Burma
+  latitude: 21.301611
+  longitude: 99.635997
+- name: Seoul, South Korea
+  latitude: 37.469075
+  longitude: 126.450517
+- name: Cairns, Australia
+  latitude: -16.885833
+  longitude: 145.755278
+- name: Beijing, China
+  latitude: 40.080111
+  longitude: 116.584556
+- name: Barter Island, United States
+  latitude: 70.133989
+  longitude: -143.581867
+- name: Bettles, United States
+  latitude: 66.913944
+  longitude: -151.529056
+- name: Fort Yukon, United States
+  latitude: 66.571492
+  longitude: -145.250417
+- name: St. Paul Island, United States
+  latitude: 57.167333
+  longitude: -170.220444
+- name: Iliamna, United States
+  latitude: 59.754356
+  longitude: -154.910961
+- name: Boston, United States
+  latitude: 42.364347
+  longitude: -71.005181
+- name: Oakland, United States
+  latitude: 37.721278
+  longitude: -122.220722
+- name: Kansas City, United States
+  latitude: 39.297606
+  longitude: -94.713905
+- name: Phoenix, United States
+  latitude: 33.434278
+  longitude: -112.011583
+- name: Spokane, United States
+  latitude: 47.619861
+  longitude: -117.533833
+- name: San Francisco, United States
+  latitude: 37.618972
+  longitude: -122.374889
+- name: Los Angeles, United States
+  latitude: 33.942536
+  longitude: -118.408075
+- name: Cleveland, United States
+  latitude: 41.411689
+  longitude: -81.849794
+- name: Cincinnati, United States
+  latitude: 39.048836
+  longitude: -84.667822
+- name: Juneau, United States
+  latitude: 58.354972
+  longitude: -134.576278
+- name: Newark, United States
+  latitude: 40.6925
+  longitude: -74.168667
+- name: Kona, United States
+  latitude: 19.738767
+  longitude: -156.045631
+- name: Washington, United States
+  latitude: 38.852083
+  longitude: -77.037722
+- name: Kodiak, United States
+  latitude: 57.749967
+  longitude: -152.493856
+- name: Salt Lake City, United States
+  latitude: 40.788389
+  longitude: -111.977772
+- name: Houston, United States
+  latitude: 29.645419
+  longitude: -95.278889
+- name: Palmer, United States
+  latitude: 61.594914
+  longitude: -149.088711
+- name: Pittsburgh, United States
+  latitude: 40.491467
+  longitude: -80.232872
+- name: Barrow, United States
+  latitude: 71.285446
+  longitude: -156.766003
+- name: Miami, United States
+  latitude: 25.79325
+  longitude: -80.290556
+- name: Seattle, United States
+  latitude: 47.449
+  longitude: -122.309306
+- name: Indianapolis, United States
+  latitude: 39.717331
+  longitude: -86.294383
+- name: Duluth, United States
+  latitude: 46.842091
+  longitude: -92.193649
+- name: Bethel, United States
+  latitude: 60.779778
+  longitude: -161.838
+- name: Cordova, United States
+  latitude: 60.491778
+  longitude: -145.477556
+- name: Nome, United States
+  latitude: 64.512203
+  longitude: -165.445247
+- name: Deadhorse, United States
+  latitude: 70.19475
+  longitude: -148.465167
+- name: Kenai, United States
+  latitude: 60.573111
+  longitude: -151.245
+- name: Tucson, United States
+  latitude: 32.116083
+  longitude: -110.941028
+- name: Tampa, United States
+  latitude: 27.975472
+  longitude: -82.53325
+- name: Homer, United States
+  latitude: 59.645556
+  longitude: -151.476583
+- name: Dallas-Fort Worth, United States
+  latitude: 32.896828
+  longitude: -97.037997
+- name: Austin, United States
+  latitude: 30.194528
+  longitude: -97.669889
+- name: St. Louis, United States
+  latitude: 38.748697
+  longitude: -90.370028
+- name: Atlanta, United States
+  latitude: 33.636719
+  longitude: -84.428067
+- name: Anchorage, United States
+  latitude: 61.250986
+  longitude: -149.806503
+- name: Kotzebue, United States
+  latitude: 66.884678
+  longitude: -162.59855
+- name: New York, United States
+  latitude: 40.777245
+  longitude: -73.872608
+- name: Burlington, United States
+  latitude: 44.471861
+  longitude: -73.153278
+- name: Milwaukee, United States
+  latitude: 42.947222
+  longitude: -87.896583
+- name: Portland, United States
+  latitude: 45.588722
+  longitude: -122.5975
+- name: Honolulu, United States
+  latitude: 21.318681
+  longitude: -157.922428
+- name: San Diego, United States
+  latitude: 32.733556
+  longitude: -117.189667
+- name: Sumter, United States
+  latitude: 33.972719
+  longitude: -80.470564
+- name: San Jose, United States
+  latitude: 37.3626
+  longitude: -121.929022
+- name: Hobbs, United States
+  latitude: 32.687528
+  longitude: -103.217028
+- name: Denver, United States
+  latitude: 39.861656
+  longitude: -104.673178
+- name: Galena, United States
+  latitude: 64.736178
+  longitude: -156.937417
+- name: Anchorage, United States
+  latitude: 61.174361
+  longitude: -149.996361
+- name: Bellingham, United States
+  latitude: 48.792694
+  longitude: -122.537528
+- name: Santa Fe, United States
+  latitude: 35.617108
+  longitude: -106.089422
+- name: King Salmon, United States
+  latitude: 58.676778
+  longitude: -156.649278
+- name: Reno, United States
+  latitude: 39.499108
+  longitude: -119.768108
+- name: Ketchikan, United States
+  latitude: 55.355556
+  longitude: -131.71375
+- name: Sacramento, United States
+  latitude: 38.695417
+  longitude: -121.590778
+- name: Chicago, United States
+  latitude: 41.978603
+  longitude: -87.904842
+- name: Fairbanks, United States
+  latitude: 64.815114
+  longitude: -147.856267
+- name: Sitka, United States
+  latitude: 57.047138
+  longitude: -135.361611
+- name: Minneapolis, United States
+  latitude: 44.881956
+  longitude: -93.221767
+- name: Unalaska, United States
+  latitude: 53.900139
+  longitude: -166.5435
+- name: Portland, United States
+  latitude: 43.646161
+  longitude: -70.309281
+- name: Valdez, United States
+  latitude: 61.133949
+  longitude: -146.248342
+- name: Valparaiso, United States
+  latitude: 30.48325
+  longitude: -86.5254
+- name: Las Vegas, United States
+  latitude: 36.080056
+  longitude: -115.15225
+- name: Fort Wainwright, United States
+  latitude: 64.8375
+  longitude: -147.614444
+- name: Lewiston, United States
+  latitude: 46.3745
+  longitude: -117.015389
+- name: Ithaca, United States
+  latitude: 42.491028
+  longitude: -76.458444
+- name: Santa Barbara, United States
+  latitude: 34.426211
+  longitude: -119.840372
+- name: Buenos Aires, Argentina
+  latitude: -34.822222
+  longitude: -58.535833
+- name: Greensboro, United States
+  latitude: 36.09775
+  longitude: -79.937306
+- name: Sioux Falls, United States
+  latitude: 43.582014
+  longitude: -96.741914
+- name: Bermuda, Bermuda
+  latitude: 32.364042
+  longitude: -64.678703
+- name: Windhoek, Namibia
+  latitude: -22.486667
+  longitude: 17.4625
+- name: Petersburg, United States
+  latitude: 56.801667
+  longitude: -132.945278
+- name: Stokmarknes, Norway
+  latitude: 68.580833
+  longitude: 15.026111
+- name: Scranton, United States
+  latitude: 41.338478
+  longitude: -75.723403
+- name: Broome, Australia
+  latitude: -17.8
+  longitude: 122.2
+- name: Mountain Village, United States
+  latitude: 62.0954
+  longitude: -163.682
+- name: Gustavus, United States
+  latitude: 58.4253
+  longitude: -135.707
+- name: Adak Island, United States
+  latitude: 51.878
+  longitude: -176.646
+- name: Al Ain, United Arab Emirates
+  latitude: 24.261667
+  longitude: 55.609167
+- name: San Luis Obispo, United States
+  latitude: 35.2368
+  longitude: -120.642
+- name: Upernavik, Greenland
+  latitude: 72.7902
+  longitude: -56.1306
+- name: Marau, Solomon Islands
+  latitude: -9.86167
+  longitude: 160.825
+- name: Cherskiy, Russia
+  latitude: 68.7406
+  longitude: 161.338
+- name: Kyzyl, Russia
+  latitude: 51.6694
+  longitude: 94.4006
+- name: Pasco, United States
+  latitude: 46.2647
+  longitude: -119.119
+- name: Jakarta, Indonesia
+  latitude: -6.26661
+  longitude: 106.891
+- name: Togiak Village, United States
+  latitude: 59.0528
+  longitude: -160.397
+- name: King Cove, United States
+  latitude: 55.1163
+  longitude: -162.266
+- name: Igiugig, United States
+  latitude: 59.324
+  longitude: -155.902
+- name: Arctic Village, United States
+  latitude: 68.1147
+  longitude: -145.579
+- name: Kaltag, United States
+  latitude: 64.3191
+  longitude: -158.741
+- name: Hooper Bay, United States
+  latitude: 61.5239
+  longitude: -166.147
+- name: Anaktuvuk Pass, United States
+  latitude: 68.1336
+  longitude: -151.743
+- name: Emmonak, United States
+  latitude: 62.786111
+  longitude: -164.490833
+- name: Unalakleet, United States
+  latitude: 63.888333
+  longitude: -160.798889
+- name: Nuiqsut, United States
+  latitude: 70.21
+  longitude: -151.005556
+- name: Kasigluk, United States
+  latitude: 60.873333
+  longitude: -162.524444
+- name: Huslia, United States
+  latitude: 65.697778
+  longitude: -156.351389
+- name: Minto, United States
+  latitude: 65.143611
+  longitude: -149.37
+- name: Tanana, United States
+  latitude: 65.179556
+  longitude: -152.075833
+- name: Beaver, United States
+  latitude: 66.362222
+  longitude: -147.406667
+- name: Shungnak, United States
+  latitude: 66.888056
+  longitude: -157.1625
+- name: Coldfoot, United States
+  latitude: 67.251389
+  longitude: -150.176111
+- name: Elfin Cove, United States
+  latitude: 58.195278
+  longitude: -136.3475
+- name: Kake, United States
+  latitude: 56.961389
+  longitude: -133.910278
+- name: Thorne Bay, United States
+  latitude: 55.688056
+  longitude: -132.536667
+- name: Buckland, United States
+  latitude: 65.981667
+  longitude: -161.149167
+- name: Kobuk, United States
+  latitude: 66.912222
+  longitude: -156.897222
+- name: Selawik, United States
+  latitude: 66.6
+  longitude: -159.985833
+- name: Wales, United States
+  latitude: 65.6225
+  longitude: -168.095
+- name: Klawock, United States
+  latitude: 55.579167
+  longitude: -133.076111
+- name: Nikolai, United States
+  latitude: 63.010833
+  longitude: -154.383889
+- name: Wainwright, United States
+  latitude: 70.638056
+  longitude: -159.994722
+- name: Chenega, United States
+  latitude: 60.077222
+  longitude: -147.991944
+- name: Circle, United States
+  latitude: 65.827778
+  longitude: -144.076111
+- name: Healy, United States
+  latitude: 63.8675
+  longitude: -148.968889
+- name: St. George, United States
+  latitude: 56.577222
+  longitude: -169.663611
+- name: Columbus, United States
+  latitude: 40.0798
+  longitude: -83.073
+- name: Valenca, Brazil
+  latitude: -13.2965
+  longitude: -38.9924
+- name: Sterling, United States
+  latitude: 40.6153136
+  longitude: -103.2648454
+- name: McKinley Park, United States
+  latitude: 63.732757
+  longitude: -148.91129
+- name: Toksook Bay, United States
+  latitude: 60.541389
+  longitude: -165.087222
+- name: Caherciveen, Ireland
+  latitude: 51.933334
+  longitude: -10.233333
+- name: Palo Alto, United States
+  latitude: 37.4611111
+  longitude: -122.1150556
+- name: 5BK
+  latitude: 63.53527778
+  longitude: -145.8608333
+- name: TTW
+  latitude: 63.39111111
+  longitude: -148.9555556
+- name: CKX
+  latitude: 64.07138889
+  longitude: -141.9522222
+- name: A79
+  latitude: 56.255
+  longitude: -158.7752778
+- name: CXC
+  latitude: 61.58277778
+  longitude: -144.4272222
+- name: CKU
+  latitude: 60.54388889
+  longitude: -145.7266667
+- name: ENM
+  latitude: 62.78611111
+  longitude: -164.4908333
+- name: GBH
+  latitude: 68.47972222
+  longitude: -149.49
+- name: AQY
+  latitude: 60.96611111
+  longitude: -149.1258333
+- name: HRR
+  latitude: 63.8675
+  longitude: -148.9688889
+- name: ENN
+  latitude: 64.54722222
+  longitude: -149.0738889
+- name: AQT
+  latitude: 70.21
+  longitude: -151.0055556
+- name: 3T4
+  latitude: 63.125
+  longitude: -142.5183333
+- name: UMT
+  latitude: 69.37111111
+  longitude: -152.135
+- name: UUO
+  latitude: 61.75416667
+  longitude: -150.0516667
+- name: WSM
+  latitude: 67.40444444
+  longitude: -150.1227778
+- name: CRG
+  latitude: 30.33638889
+  longitude: -81.51444444
+- name: AFP
+  latitude: 35.02055556
+  longitude: -80.07722222
+- name: AFN
+  latitude: 42.805
+  longitude: -72.00305556
+- name: BLM
+  latitude: 40.18694444
+  longitude: -74.125
+- name: ONM
+  latitude: 34.0225
+  longitude: -106.9030556
+- name: West Ridge Research Building
+  longitude: -147.849272602435
+  latitude: 64.86001660243627
+- name: University of Alaska Fairbanks
+  longitude: -147.84
+  latitude: 64.855
+- name: McMurdo
+  latitude: 166.6667
+  longitude: -77.85
+- latitude: 73.0
+  longitude: 173.0
+- latitude: 78.0
+  longitude: 151.0
+- latitude: 77.0
+  longitude: -142.0
+- latitude: 77.0
+  longitude: 143.0
+- latitude: 61.0
+  longitude: 175.5
+- latitude: 71.3
+  longitude: -125.5
+- latitude: 61.6
+  longitude: 100.0
+- latitude: 56.0
+  longitude: 134.0
+- latitude: -74.0
+  longitude: 93.0
+- latitude: -82.0
+  longitude: 21.0
+- latitude: -81.5
+  longitude: -120.5
