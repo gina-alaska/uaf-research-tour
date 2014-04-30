@@ -43,6 +43,10 @@
     longitude: 135
     latitude: 38
     range: 3500000
+  - title: SouthEast Asia
+    longitude: 109.48
+    latitude: 10.3
+    range: 7000000
   - title: Austraila
     longitude: 133
     latitude: -27
@@ -51,17 +55,17 @@
     longitude: 0
     latitude: -89
     range: 6000000
-  - title: McMurdo
-    longitude: -166.6
-    latitude: -77.8
-    range: 100000
   - title: South America
     longitude: -63
     latitude: -21
-    range: 7000000
+    range: 8000000
+  - title: Central America
+    longitude: -88
+    latitude: 9.25
+    range: 4500000
   - title: Hawaii
     longitude: -156.5
-    latitude: 19
+    latitude: 20
     range: 1000000
   - title: UAF Campus
     longitude: -147.84
