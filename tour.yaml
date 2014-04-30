@@ -2,33 +2,68 @@
   - title: West Ridge Research Building
     longitude: -147.849272602435
     latitude:  64.86001660243627
-    altitude: 0
-    heading: 0
     range: 83
-    tilt: 0
-    roll: 0
-    duration: 4
-    wait: 2
   - title: Alaska
     longitude: -147.849272602435
-    latitude:  64.86001660243627
+    latitude:  62.86001660243627
     range: 3240000
-    duration: 4
-    wait: 3
   - title: United States
     longitude: -114.6
-    latitude: 47.33
-    range: 8000000
-    duration: 3
-    wait: 3
+    latitude: 48.33
+    range: 6500000
   - title: Canada
+    longitude: -102.6
+    latitude: 62.33
+    range: 5000000
+  - title: Iceland
+    longitude: -31
+    latitude: 69
+    range: 4000000
   - title: Europe
-  - title: Africa
+    longitude: 6
+    latitude: 50
+    range: 4000000
+  - title: North Africa
+    longitude: 16
+    latitude: 14
+    range: 6000000
+  - title: South Africa
+    longitude: 24
+    latitude: -14
+    range: 6000000
+  - title: Middle East
+    longitude: 62
+    latitude: 25
+    range: 5500000
   - title: Russia
+    longitude: 107
+    latitude: 63
+    range: 6000000
   - title: Japan
+    longitude: 135
+    latitude: 38
+    range: 3500000
   - title: Austraila
+    longitude: 133
+    latitude: -27
+    range: 5500000
   - title: Antarctica
+    longitude: 0
+    latitude: -89
+    range: 6000000
   - title: McMurdo
+    longitude: -166.6
+    latitude: -77.8
+    range: 100000
   - title: South America
+    longitude: -63
+    latitude: -21
+    range: 7000000
   - title: Hawaii
+    longitude: -156.5
+    latitude: 19
+    range: 1000000
   - title: UAF Campus
+    longitude: -147.84
+    latitude:  64.855
+    range: 4000

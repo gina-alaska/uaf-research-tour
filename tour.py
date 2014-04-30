@@ -14,7 +14,7 @@ playlist = kmltour.newgxplaylist()
 
 for location in tour:
   print "Looking at " + location['title']
-  flyto = playlist.newgxflyto(gxduration=location.get('duration', 4))
+  flyto = playlist.newgxflyto(gxduration=location.get('duration', 1))
   flyto.lookat.longitude = location['longitude']
   flyto.lookat.latitude = location['latitude']
   flyto.lookat.range = location['range']
@@ -23,6 +23,6 @@ for location in tour:
   flyto.lookat.tilt = location.get('tilt', 0)
   flyto.lookat.roll = location.get('roll', 0)
 
-  wait = playlist.newgxwait(gxduration=location.get('wait', 2))
+  wait = playlist.newgxwait(gxduration=location.get('wait', 0))
 
-kml.save('uaf_reasearch_tour.kml')
+kml.save('uaf_research_tour.kml')
