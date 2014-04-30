@@ -1,0 +1,32 @@
+---
+  - name: "West Ridge Research Building"
+    longitude: -147.849272602435
+    latitude:  64.86001660243627
+  - name: "University of Alaska Fairbanks"
+    longitude: -147.84
+    latitude:  64.855
+  - name: "McMurdo"
+    latitude: 166.6667
+    longitude: -77.8500
+  - latitude: 73.00
+    longitude: 173.00
+  - latitude: 78.00
+    longitude: 151.00
+  - latitude: 77.00
+    longitude: -142.00
+  - latitude: 77.00
+    longitude: 143.00
+  - latitude: 61.00
+    longitude: 175.5
+  - latitude: 71.3
+    longitude: -125.5
+  - latitude: 61.6
+    longitude: 100.00
+  - latitude: 56.00
+    longitude: 134.00
+  - latitude: -74.00
+    longitude: 93.00
+  - latitude: -82.00
+    longitude: 21.00
+  - latitude: -81.5
+    longitude: -120.5
