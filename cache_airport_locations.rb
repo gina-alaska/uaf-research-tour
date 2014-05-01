@@ -1,6 +1,6 @@
-require 'ruby_kml'
 require 'csv'
 require 'soda'
+require 'yaml'
 
 LIMIT=1000
 
@@ -25,17 +25,6 @@ def fetch_airports( code, filterfield, filter )
   results.select{|row| filter.include?(row.send(filterfield))}
 end
 
-kml = KMLFile.new
-folder = KML::Folder.new(name: "Airport locations")
-style = KML::Style.new(
-  id: "default",
-  icon_style: KML::IconStyle.new(icon:
-    KML::Icon.new(href: "http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png")
-  )
-)
-kml.objects << style
-
-
 locations = CSV.new(File.open(ARGV[0], 'r'))
 location_ids = locations.collect{|l| l.first.strip.upcase}.sort
 data = CSV.new(File.open("airports.dat", 'r'))
@@ -54,34 +43,25 @@ puts "Found #{opendata_results.count}"
 puts "Still missing #{(missing_ids - opendata_results.collect(&:locationid)).join(",")}"
 puts "Generating KML..."
 
+puts "Saving to local cache as YAML:"
+final_results = []
+
 results.each do |result|
-  folder.features << KML::Placemark.new(
-    name: result[2..3].join(", "),
-    style_url: "#default",
-    geometry: KML::Point.new(
-      coordinates: {
-        lat: result[6],
-        lng: result[7]
-      }
-    )
-)
+  final_results << {
+    "name" => result[2..3].join(", "),
+    "latitude" => result[6].to_f,
+    "longitude" => result[7].to_f
+  }
 end
-
 opendata_results.each do |result|
-  folder.features << KML::Placemark.new(
-    name: result.locationid,
-    style_url: "#default",
-    geometry: KML::Point.new(
-      coordinates: {
-        lat: result.latitude.to_f,
-        lng: -result.longitude.to_f
-      }
-    )
-  )
+  final_results << {
+    "name" => result.locationid,
+    "latitude" => result.latitude.to_f,
+    "longitude" => -result.longitude.to_f
+  }
 end
 
-
-kml.objects << folder
-File.open("airport_locations.kml","w") do |file|
-  file << kml.render
+final_results += YAML.load_file("additional_sites.yml")
+File.open("placemarks.yml", "w") do |f|
+  f << final_results.to_yaml
 end
