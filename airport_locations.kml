@@ -1,1689 +1,1731 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
-<Document>
-	<name>Airport Locations</name>
-	<Style id="hl">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="default">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<StyleMap id="default0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#default</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#hl</styleUrl>
-		</Pair>
-	</StyleMap>
-<Placemark>
-	<name>Seattle, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-122.309306,47.449,0</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Godthaab, Greenland</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-51.678064,64.190922</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Keflavik, Iceland</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-22.605556,63.985</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Reykjavik, Iceland</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-21.940556,64.13</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Edmonton, Canada</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-113.579722,53.309723</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Inuvik, Canada</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-133.482778,68.304167</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Montreal, Canada</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-73.740833,45.470556</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Vancouver, Canada</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-123.184444,49.193889</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Whitehorse, Canada</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-135.067269,60.709553</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Calgary, Canada</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-114.020278,51.113888</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Victoria, Canada</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-123.425833,48.646944</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Munich, Germany</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>11.786086,48.353783</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Helsinki, Finland</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>25.042828,60.254558</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Helsinki, Finland</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>24.963333,60.317222</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Bristol, United Kingdom</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-2.719089,51.382669</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>London, United Kingdom</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-0.461389,51.4775</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Blackpool, United Kingdom</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-3.028611,53.771667</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Edinburgh, United Kingdom</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-3.3725,55.95</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Dublin, Ireland</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-6.270075,53.421333</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Copenhagen, Denmark</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>12.655972,55.617917</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Oslo, Norway</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>11.100361,60.193917</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Kirkenes, Norway</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>29.891295,69.725781</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Svalbard, Norway</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>15.465556,78.246111</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Tromso, Norway</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>18.918919,69.683333</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Warsaw, Poland</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>20.967122,52.16575</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Umea, Sweden</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>20.282758,63.791828</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Orebro, Sweden</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>15.037956,59.223733</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Stockholm, Sweden</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>17.918611,59.651944</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Johannesburg, South Africa</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>28.246,-26.139166</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Pilanesberg, South Africa</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>27.173358,-25.333822</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Antananarivo, Madagascar</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>47.478806,-18.79695</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Libreville, Gabon</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>9.412283,0.4586</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Tenerife, Spain</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-16.572489,28.044475</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Casablanca, Morocco</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-7.589967,33.367467</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Dar Es Salaam, Tanzania</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>39.202625,-6.878111</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Kilimanjaro, Tanzania</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>37.074461,-3.429406</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Madrid, Spain</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-3.566764,40.493556</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Treviso, Italy</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>12.194422,45.6484</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Rome, Italy</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>12.250797,41.804475</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Vienna, Austria</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>16.569722,48.110278</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Lisbon, Portugal</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-9.135919,38.781311</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Zurich, Switzerland</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>8.549167,47.464722</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Istanbul, Turkey</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>28.814606,40.976922</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Guatemala City, Guatemala</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-90.527475,14.583272</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Tegucigalpa, Honduras</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-87.217197,14.060883</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Mexico City, Mexico</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-99.072097,19.436303</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Managua, Nicaragua</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-86.168178,12.141494</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Panama City, Panama</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-79.383453,9.071364</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>San Jose, Costa Rica</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-84.208806,9.993861</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Herat, Afghanistan</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>62.2283,34.210017</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Abu Dhabi, United Arab Emirates</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>54.651138,24.432972</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Tokyo, Japan</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>140.386389,35.764722</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Sapporo, Japan</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>141.692283,42.7752</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Osaka, Japan</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>135.438222,34.785528</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Manila, Philippines</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>121.019581,14.508647</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Sao Paulo, Brazil</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-46.469511,-23.432075</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Punta Arenas, Chile</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-70.854586,-53.002642</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Santiago, Chile</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-70.785803,-33.392975</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Galapagos, Ecuador</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-90.265914,-0.453758</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Guayaquil, Ecuador</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-79.883558,-2.157419</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Bogota, Colombia</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-74.146947,4.701594</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>McCarthy, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-142.90307372,61.4370608</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>La Paz, Bolivia</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-68.192256,-16.513339</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Zandery, Suriname</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-55.187783,5.452831</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Cayenne, French Guiana</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-52.360447,4.819808</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Seward, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-149.4188122,60.1269383</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Lima, Peru</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-77.114319,-12.021889</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Arequipa, Peru</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-71.583083,-16.341072</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Caracas, Venezuela</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-66.990583,10.603117</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Port-of-spain, Trinidad and Tobago</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-61.337242,10.595369</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Yakutat, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-139.3937,59.3012</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Petropavlovsk, Russia</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>158.453669,53.167889</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Vladivostok, Russia</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>132.148017,43.398953</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>St. Petersburg, Russia</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>30.262503,59.800292</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Moscow, Russia</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>37.414589,55.972642</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Delhi, India</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>77.103088,28.5665</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Bangkok, Thailand</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>100.60675,13.912583</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Pattaya, Thailand</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>101.005028,12.679944</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Kengtung, Burma</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>99.635997,21.301611</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Seoul, South Korea</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>126.450517,37.469075</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Cairns, Australia</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>145.755278,-16.885833</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Beijing, China</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>116.584556,40.080111</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Barter Island, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-143.581867,70.133989</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Bettles, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-151.529056,66.913944</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Fort Yukon, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-145.250417,66.571492</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>St. Paul Island, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-170.220444,57.167333</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Iliamna, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-154.910961,59.754356</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Boston, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-71.005181,42.364347</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Oakland, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-122.220722,37.721278</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Kansas City, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-94.713905,39.297606</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Phoenix, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-112.011583,33.434278</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Spokane, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-117.533833,47.619861</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>San Francisco, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-122.374889,37.618972</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Los Angeles, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-118.408075,33.942536</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Cleveland, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-81.849794,41.411689</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Cincinnati, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-84.667822,39.048836</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Juneau, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-134.576278,58.354972</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Newark, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-74.168667,40.6925</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Kona, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-156.045631,19.738767</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Washington, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-77.037722,38.852083</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Kodiak, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-152.493856,57.749967</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Salt Lake City, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-111.977772,40.788389</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Houston, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-95.278889,29.645419</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Palmer, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-149.088711,61.594914</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Pittsburgh, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-80.232872,40.491467</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Barrow, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-156.766003,71.285446</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Miami, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-80.290556,25.79325</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Seattle, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-122.309306,47.449</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Indianapolis, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-86.294383,39.717331</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Duluth, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-92.193649,46.842091</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Bethel, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-161.838,60.779778</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Cordova, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-145.477556,60.491778</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Nome, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-165.445247,64.512203</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Deadhorse, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-148.465167,70.19475</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Kenai, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-151.245,60.573111</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Tucson, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-110.941028,32.116083</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Tampa, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-82.53325,27.975472</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Homer, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-151.476583,59.645556</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Dallas-Fort Worth, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-97.037997,32.896828</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Austin, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-97.669889,30.194528</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>St. Louis, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-90.370028,38.748697</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Atlanta, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-84.428067,33.636719</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Anchorage, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-149.806503,61.250986</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Kotzebue, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-162.59855,66.884678</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>New York, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-73.872608,40.777245</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Burlington, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-73.153278,44.471861</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Milwaukee, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-87.896583,42.947222</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Portland, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-122.5975,45.588722</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Honolulu, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-157.922428,21.318681</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>San Diego, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-117.189667,32.733556</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Sumter, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-80.470564,33.972719</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>San Jose, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-121.929022,37.3626</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Hobbs, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-103.217028,32.687528</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Denver, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-104.673178,39.861656</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Galena, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-156.937417,64.736178</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Anchorage, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-149.996361,61.174361</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Bellingham, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-122.537528,48.792694</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Santa Fe, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-106.089422,35.617108</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>King Salmon, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-156.649278,58.676778</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Reno, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-119.768108,39.499108</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Ketchikan, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-131.71375,55.355556</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Sacramento, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-121.590778,38.695417</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Chicago, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-87.904842,41.978603</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Fairbanks, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-147.856267,64.815114</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Sitka, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-135.361611,57.047138</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Minneapolis, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-93.221767,44.881956</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Unalaska, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-166.5435,53.900139</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Portland, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-70.309281,43.646161</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Valdez, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-146.248342,61.133949</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Valparaiso, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-86.5254,30.48325</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Las Vegas, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-115.15225,36.080056</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Fort Wainwright, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-147.614444,64.8375</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Lewiston, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-117.015389,46.3745</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Ithaca, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-76.458444,42.491028</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Santa Barbara, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-119.840372,34.426211</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Buenos Aires, Argentina</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-58.535833,-34.822222</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Greensboro, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-79.937306,36.09775</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Sioux Falls, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-96.741914,43.582014</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Bermuda, Bermuda</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-64.678703,32.364042</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Windhoek, Namibia</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>17.4625,-22.486667</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Petersburg, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-132.945278,56.801667</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Stokmarknes, Norway</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>15.026111,68.580833</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Scranton, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-75.723403,41.338478</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Broome, Australia</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>122.2,-17.8</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Mountain Village, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-163.682,62.0954</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Gustavus, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-135.707,58.4253</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Adak Island, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-176.646,51.878</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Al Ain, United Arab Emirates</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>55.609167,24.261667</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>San Luis Obispo, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-120.642,35.2368</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Upernavik, Greenland</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-56.1306,72.7902</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Marau, Solomon Islands</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>160.825,-9.86167</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Cherskiy, Russia</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>161.338,68.7406</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Kyzyl, Russia</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>94.4006,51.6694</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Pasco, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-119.119,46.2647</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Jakarta, Indonesia</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>106.891,-6.26661</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Togiak Village, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-160.397,59.0528</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>King Cove, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-162.266,55.1163</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Igiugig, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-155.902,59.324</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Arctic Village, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-145.579,68.1147</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Kaltag, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-158.741,64.3191</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Hooper Bay, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-166.147,61.5239</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Anaktuvuk Pass, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-151.743,68.1336</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Emmonak, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-164.490833,62.786111</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Unalakleet, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-160.798889,63.888333</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Nuiqsut, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-151.005556,70.21</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Kasigluk, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-162.524444,60.873333</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Huslia, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-156.351389,65.697778</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Minto, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-149.37,65.143611</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Tanana, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-152.075833,65.179556</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Beaver, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-147.406667,66.362222</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Shungnak, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-157.1625,66.888056</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Coldfoot, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-150.176111,67.251389</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Elfin Cove, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-136.3475,58.195278</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Kake, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-133.910278,56.961389</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Thorne Bay, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-132.536667,55.688056</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Buckland, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-161.149167,65.981667</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Kobuk, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-156.897222,66.912222</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Selawik, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-159.985833,66.6</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Wales, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-168.095,65.6225</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Klawock, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-133.076111,55.579167</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Nikolai, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-154.383889,63.010833</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Wainwright, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-159.994722,70.638056</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Chenega, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-147.991944,60.077222</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Circle, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-144.076111,65.827778</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Healy, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-148.968889,63.8675</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>St. George, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-169.663611,56.577222</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Columbus, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-83.073,40.0798</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Valenca, Brazil</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-38.9924,-13.2965</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Sterling, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-103.2648454,40.6153136</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>McKinley Park, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-148.91129,63.732757</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Toksook Bay, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-165.087222,60.541389</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Caherciveen, Ireland</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-10.233333,51.933334</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>Palo Alto, United States</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-122.1150556,37.4611111</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>5BK</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-145.8608333,63.53527778</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>TTW</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-148.9555556,63.39111111</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>CKX</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-141.9522222,64.07138889</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>A79</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-158.7752778,56.255</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>CXC</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-144.4272222,61.58277778</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>CKU</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-145.7266667,60.54388889</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>ENM</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-164.4908333,62.78611111</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>GBH</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-149.49,68.47972222</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>AQY</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-149.1258333,60.96611111</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>HRR</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-148.9688889,63.8675</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>ENN</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-149.0738889,64.54722222</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>AQT</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-151.0055556,70.21</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>3T4</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-142.5183333,63.125</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>UMT</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-152.135,69.37111111</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>UUO</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-150.0516667,61.75416667</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>WSM</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-150.1227778,67.40444444</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>CRG</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-81.51444444,30.33638889</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>AFP</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-80.07722222,35.02055556</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>AFN</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-72.00305556,42.805</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>BLM</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-74.125,40.18694444</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>ONM</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>-106.9030556,34.0225</coordinates>
-	</Point>
-</Placemark>
-<Placemark>
-	<name>McMurdo, Antarctica</name>
-	<styleUrl>#default0</styleUrl>
-	<Point>
-		<coordinates>166.6667,-77.8500</coordinates>
-	</Point>
-</Placemark>
-</Document>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+    <name>Airport locations</name>
+    <Style id="default">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>Godthaab, Greenland</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-51.678064,64.190922</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Keflavik, Iceland</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-22.605556,63.985</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Reykjavik, Iceland</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-21.940556,64.13</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Edmonton, Canada</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-113.579722,53.309723</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Inuvik, Canada</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-133.482778,68.304167</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Montreal, Canada</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-73.740833,45.470556</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Vancouver, Canada</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-123.184444,49.193889</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Whitehorse, Canada</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-135.067269,60.709553</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Calgary, Canada</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-114.020278,51.113888</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Victoria, Canada</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-123.425833,48.646944</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Munich, Germany</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>11.786086,48.353783</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Helsinki, Finland</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>25.042828,60.254558</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Helsinki, Finland</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>24.963333,60.317222</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bristol, United Kingdom</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-2.719089,51.382669</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>London, United Kingdom</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-0.461389,51.4775</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Blackpool, United Kingdom</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-3.028611,53.771667</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Edinburgh, United Kingdom</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-3.3725,55.95</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dublin, Ireland</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-6.270075,53.421333</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Copenhagen, Denmark</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>12.655972,55.617917</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Oslo, Norway</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>11.100361,60.193917</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kirkenes, Norway</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>29.891295,69.725781</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Svalbard, Norway</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>15.465556,78.246111</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tromso, Norway</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>18.918919,69.683333</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Warsaw, Poland</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>20.967122,52.16575</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Umea, Sweden</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>20.282758,63.791828</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Orebro, Sweden</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>15.037956,59.223733</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Stockholm, Sweden</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>17.918611,59.651944</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Johannesburg, South Africa</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>28.246,-26.139166</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pilanesberg, South Africa</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>27.173358,-25.333822</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Antananarivo, Madagascar</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>47.478806,-18.79695</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Libreville, Gabon</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>9.412283,0.4586</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tenerife, Spain</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-16.572489,28.044475</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Casablanca, Morocco</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-7.589967,33.367467</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dar Es Salaam, Tanzania</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>39.202625,-6.878111</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kilimanjaro, Tanzania</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>37.074461,-3.429406</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Madrid, Spain</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-3.566764,40.493556</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Treviso, Italy</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>12.194422,45.6484</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rome, Italy</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>12.250797,41.804475</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Vienna, Austria</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>16.569722,48.110278</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lisbon, Portugal</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-9.135919,38.781311</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Zurich, Switzerland</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>8.549167,47.464722</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Istanbul, Turkey</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>28.814606,40.976922</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Guatemala City, Guatemala</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-90.527475,14.583272</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tegucigalpa, Honduras</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-87.217197,14.060883</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mexico City, Mexico</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-99.072097,19.436303</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Managua, Nicaragua</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-86.168178,12.141494</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Panama City, Panama</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-79.383453,9.071364</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>San Jose, Costa Rica</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-84.208806,9.993861</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Herat, Afghanistan</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>62.2283,34.210017</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Abu Dhabi, United Arab Emirates</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>54.651138,24.432972</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tokyo, Japan</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>140.386389,35.764722</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sapporo, Japan</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>141.692283,42.7752</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Osaka, Japan</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>135.438222,34.785528</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Manila, Philippines</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>121.019581,14.508647</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sao Paulo, Brazil</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-46.469511,-23.432075</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punta Arenas, Chile</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-70.854586,-53.002642</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Santiago, Chile</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-70.785803,-33.392975</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Galapagos, Ecuador</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-90.265914,-0.453758</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Guayaquil, Ecuador</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-79.883558,-2.157419</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bogota, Colombia</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-74.146947,4.701594</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>McCarthy, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-142.90307372,61.4370608</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>La Paz, Bolivia</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-68.192256,-16.513339</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Zandery, Suriname</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-55.187783,5.452831</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cayenne, French Guiana</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-52.360447,4.819808</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Seward, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-149.4188122,60.1269383</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lima, Peru</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-77.114319,-12.021889</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Arequipa, Peru</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-71.583083,-16.341072</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Caracas, Venezuela</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-66.990583,10.603117</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Port-of-spain, Trinidad and Tobago</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-61.337242,10.595369</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Yakutat, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-139.3937,59.3012</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Petropavlovsk, Russia</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>158.453669,53.167889</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Vladivostok, Russia</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>132.148017,43.398953</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>St. Petersburg, Russia</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>30.262503,59.800292</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Moscow, Russia</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>37.414589,55.972642</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Delhi, India</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>77.103088,28.5665</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bangkok, Thailand</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>100.60675,13.912583</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pattaya, Thailand</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>101.005028,12.679944</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kengtung, Burma</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>99.635997,21.301611</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Seoul, South Korea</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>126.450517,37.469075</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cairns, Australia</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>145.755278,-16.885833</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Beijing, China</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>116.584556,40.080111</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barter Island, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-143.581867,70.133989</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bettles, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-151.529056,66.913944</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fort Yukon, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-145.250417,66.571492</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>St. Paul Island, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-170.220444,57.167333</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Iliamna, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-154.910961,59.754356</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Boston, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-71.005181,42.364347</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Oakland, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-122.220722,37.721278</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kansas City, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-94.713905,39.297606</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Phoenix, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-112.011583,33.434278</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Spokane, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-117.533833,47.619861</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>San Francisco, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-122.374889,37.618972</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Los Angeles, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-118.408075,33.942536</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cleveland, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-81.849794,41.411689</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cincinnati, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-84.667822,39.048836</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Juneau, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-134.576278,58.354972</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Newark, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-74.168667,40.6925</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kona, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-156.045631,19.738767</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Washington, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-77.037722,38.852083</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kodiak, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-152.493856,57.749967</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Salt Lake City, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-111.977772,40.788389</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Houston, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-95.278889,29.645419</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Palmer, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-149.088711,61.594914</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pittsburgh, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-80.232872,40.491467</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrow, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-156.766003,71.285446</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Miami, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-80.290556,25.79325</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Seattle, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-122.309306,47.449</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Indianapolis, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-86.294383,39.717331</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Duluth, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-92.193649,46.842091</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bethel, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-161.838,60.779778</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cordova, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-145.477556,60.491778</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nome, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-165.445247,64.512203</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Deadhorse, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-148.465167,70.19475</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kenai, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-151.245,60.573111</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tucson, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-110.941028,32.116083</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tampa, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-82.53325,27.975472</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Homer, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-151.476583,59.645556</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dallas-Fort Worth, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-97.037997,32.896828</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Austin, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-97.669889,30.194528</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>St. Louis, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-90.370028,38.748697</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Atlanta, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-84.428067,33.636719</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Anchorage, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-149.806503,61.250986</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kotzebue, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-162.59855,66.884678</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>New York, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-73.872608,40.777245</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Burlington, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-73.153278,44.471861</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Milwaukee, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-87.896583,42.947222</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Portland, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-122.5975,45.588722</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Honolulu, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-157.922428,21.318681</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>San Diego, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-117.189667,32.733556</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sumter, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-80.470564,33.972719</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>San Jose, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-121.929022,37.3626</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hobbs, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-103.217028,32.687528</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Denver, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-104.673178,39.861656</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Galena, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-156.937417,64.736178</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Anchorage, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-149.996361,61.174361</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bellingham, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-122.537528,48.792694</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Santa Fe, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-106.089422,35.617108</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>King Salmon, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-156.649278,58.676778</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Reno, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-119.768108,39.499108</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ketchikan, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-131.71375,55.355556</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sacramento, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-121.590778,38.695417</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chicago, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-87.904842,41.978603</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fairbanks, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-147.856267,64.815114</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sitka, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-135.361611,57.047138</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Minneapolis, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-93.221767,44.881956</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Unalaska, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-166.5435,53.900139</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Portland, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-70.309281,43.646161</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Valdez, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-146.248342,61.133949</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Valparaiso, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-86.5254,30.48325</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Las Vegas, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-115.15225,36.080056</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fort Wainwright, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-147.614444,64.8375</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lewiston, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-117.015389,46.3745</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ithaca, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-76.458444,42.491028</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Santa Barbara, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-119.840372,34.426211</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Buenos Aires, Argentina</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-58.535833,-34.822222</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Greensboro, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-79.937306,36.09775</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sioux Falls, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-96.741914,43.582014</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bermuda, Bermuda</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-64.678703,32.364042</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Windhoek, Namibia</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>17.4625,-22.486667</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Petersburg, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-132.945278,56.801667</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Stokmarknes, Norway</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>15.026111,68.580833</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Scranton, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-75.723403,41.338478</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Broome, Australia</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>122.2,-17.8</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mountain Village, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-163.682,62.0954</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gustavus, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-135.707,58.4253</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Adak Island, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-176.646,51.878</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Al Ain, United Arab Emirates</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>55.609167,24.261667</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>San Luis Obispo, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-120.642,35.2368</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Upernavik, Greenland</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-56.1306,72.7902</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Marau, Solomon Islands</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>160.825,-9.86167</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cherskiy, Russia</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>161.338,68.7406</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kyzyl, Russia</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>94.4006,51.6694</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pasco, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-119.119,46.2647</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Jakarta, Indonesia</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>106.891,-6.26661</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Togiak Village, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-160.397,59.0528</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>King Cove, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-162.266,55.1163</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Igiugig, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-155.902,59.324</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Arctic Village, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-145.579,68.1147</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kaltag, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-158.741,64.3191</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hooper Bay, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-166.147,61.5239</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Anaktuvuk Pass, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-151.743,68.1336</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Emmonak, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-164.490833,62.786111</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Unalakleet, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-160.798889,63.888333</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nuiqsut, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-151.005556,70.21</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kasigluk, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-162.524444,60.873333</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Huslia, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-156.351389,65.697778</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Minto, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-149.37,65.143611</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tanana, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-152.075833,65.179556</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Beaver, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-147.406667,66.362222</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shungnak, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-157.1625,66.888056</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Coldfoot, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-150.176111,67.251389</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Elfin Cove, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-136.3475,58.195278</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kake, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-133.910278,56.961389</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Thorne Bay, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-132.536667,55.688056</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Buckland, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-161.149167,65.981667</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kobuk, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-156.897222,66.912222</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Selawik, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-159.985833,66.6</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wales, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-168.095,65.6225</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Klawock, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-133.076111,55.579167</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nikolai, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-154.383889,63.010833</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wainwright, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-159.994722,70.638056</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chenega, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-147.991944,60.077222</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Circle, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-144.076111,65.827778</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Healy, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-148.968889,63.8675</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>St. George, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-169.663611,56.577222</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Columbus, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-83.073,40.0798</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Valenca, Brazil</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-38.9924,-13.2965</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sterling, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-103.2648454,40.6153136</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>McKinley Park, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-148.91129,63.732757</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Toksook Bay, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-165.087222,60.541389</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Caherciveen, Ireland</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-10.233333,51.933334</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Palo Alto, United States</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-122.1150556,37.4611111</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>5BK</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-145.8608333,63.53527778</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>TTW</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-148.9555556,63.39111111</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CKX</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-141.9522222,64.07138889</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>A79</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-158.7752778,56.255</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CXC</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-144.4272222,61.58277778</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CKU</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-145.7266667,60.54388889</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ENM</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-164.4908333,62.78611111</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>GBH</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-149.49,68.47972222</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AQY</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-149.1258333,60.96611111</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HRR</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-148.9688889,63.8675</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ENN</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-149.0738889,64.54722222</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AQT</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-151.0055556,70.21</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>3T4</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-142.5183333,63.125</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>UMT</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-152.135,69.37111111</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>UUO</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-150.0516667,61.75416667</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>WSM</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-150.1227778,67.40444444</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CRG</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-81.51444444,30.33638889</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AFP</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-80.07722222,35.02055556</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AFN</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-72.00305556,42.805</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>BLM</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-74.125,40.18694444</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ONM</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-106.9030556,34.0225</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>West Ridge Research Building</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-147.849272602435,64.86001660243627</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>University of Alaska Fairbanks</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-147.821842,64.856942</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>McMurdo</name>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>166.686344,-77.841878</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>173.0,73.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>151.0,78.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-142.0,77.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>143.0,77.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>175.5,61.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-125.5,71.3</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>100.0,61.6</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>134.0,56.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>93.0,-74.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>21.0,-82.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#default</styleUrl>
+      <Point>
+        <coordinates>-120.5,-81.5</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
 </kml>

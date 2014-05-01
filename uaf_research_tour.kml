@@ -18,7 +18,7 @@
                     </LookAt>
                 </gx:FlyTo>
                 <gx:Wait id="tour_1">
-                    <gx:duration>3</gx:duration>
+                    <gx:duration>2</gx:duration>
                 </gx:Wait>
                 <gx:FlyTo id="tour_2">
                     <gx:duration>3</gx:duration>
@@ -60,7 +60,7 @@
                     </LookAt>
                 </gx:FlyTo>
                 <gx:Wait id="tour_7">
-                    <gx:duration>3</gx:duration>
+                    <gx:duration>1.5</gx:duration>
                 </gx:Wait>
                 <gx:FlyTo id="tour_8">
                     <gx:duration>3</gx:duration>
@@ -74,7 +74,7 @@
                     </LookAt>
                 </gx:FlyTo>
                 <gx:Wait id="tour_9">
-                    <gx:duration>3</gx:duration>
+                    <gx:duration>1.5</gx:duration>
                 </gx:Wait>
                 <gx:FlyTo id="tour_10">
                     <gx:duration>3</gx:duration>
@@ -88,13 +88,13 @@
                     </LookAt>
                 </gx:FlyTo>
                 <gx:Wait id="tour_11">
-                    <gx:duration>3</gx:duration>
+                    <gx:duration>2.5</gx:duration>
                 </gx:Wait>
                 <gx:FlyTo id="tour_12">
                     <gx:duration>3</gx:duration>
                     <LookAt>
-                        <longitude>16</longitude>
-                        <latitude>14</latitude>
+                        <longitude>-10.5</longitude>
+                        <latitude>30</latitude>
                         <altitude>0</altitude>
                         <heading>0</heading>
                         <tilt>0</tilt>
@@ -102,7 +102,7 @@
                     </LookAt>
                 </gx:FlyTo>
                 <gx:Wait id="tour_13">
-                    <gx:duration>3</gx:duration>
+                    <gx:duration>1.5</gx:duration>
                 </gx:Wait>
                 <gx:FlyTo id="tour_14">
                     <gx:duration>3</gx:duration>
@@ -116,7 +116,7 @@
                     </LookAt>
                 </gx:FlyTo>
                 <gx:Wait id="tour_15">
-                    <gx:duration>3</gx:duration>
+                    <gx:duration>1.5</gx:duration>
                 </gx:Wait>
                 <gx:FlyTo id="tour_16">
                     <gx:duration>3</gx:duration>
@@ -130,7 +130,7 @@
                     </LookAt>
                 </gx:FlyTo>
                 <gx:Wait id="tour_17">
-                    <gx:duration>3</gx:duration>
+                    <gx:duration>1.5</gx:duration>
                 </gx:Wait>
                 <gx:FlyTo id="tour_18">
                     <gx:duration>3</gx:duration>
@@ -144,7 +144,7 @@
                     </LookAt>
                 </gx:FlyTo>
                 <gx:Wait id="tour_19">
-                    <gx:duration>3</gx:duration>
+                    <gx:duration>1.5</gx:duration>
                 </gx:Wait>
                 <gx:FlyTo id="tour_20">
                     <gx:duration>3</gx:duration>
@@ -158,7 +158,7 @@
                     </LookAt>
                 </gx:FlyTo>
                 <gx:Wait id="tour_21">
-                    <gx:duration>3</gx:duration>
+                    <gx:duration>2</gx:duration>
                 </gx:Wait>
                 <gx:FlyTo id="tour_22">
                     <gx:duration>3</gx:duration>
@@ -168,11 +168,11 @@
                         <altitude>0</altitude>
                         <heading>0</heading>
                         <tilt>0</tilt>
-                        <range>7000000</range>
+                        <range>6000000</range>
                     </LookAt>
                 </gx:FlyTo>
                 <gx:Wait id="tour_23">
-                    <gx:duration>3</gx:duration>
+                    <gx:duration>1.5</gx:duration>
                 </gx:Wait>
                 <gx:FlyTo id="tour_24">
                     <gx:duration>3</gx:duration>
@@ -186,7 +186,7 @@
                     </LookAt>
                 </gx:FlyTo>
                 <gx:Wait id="tour_25">
-                    <gx:duration>3</gx:duration>
+                    <gx:duration>1.5</gx:duration>
                 </gx:Wait>
                 <gx:FlyTo id="tour_26">
                     <gx:duration>3</gx:duration>
@@ -200,7 +200,7 @@
                     </LookAt>
                 </gx:FlyTo>
                 <gx:Wait id="tour_27">
-                    <gx:duration>3</gx:duration>
+                    <gx:duration>1.5</gx:duration>
                 </gx:Wait>
                 <gx:FlyTo id="tour_28">
                     <gx:duration>3</gx:duration>
@@ -214,7 +214,7 @@
                     </LookAt>
                 </gx:FlyTo>
                 <gx:Wait id="tour_29">
-                    <gx:duration>3</gx:duration>
+                    <gx:duration>1.5</gx:duration>
                 </gx:Wait>
                 <gx:FlyTo id="tour_30">
                     <gx:duration>3</gx:duration>
@@ -228,7 +228,7 @@
                     </LookAt>
                 </gx:FlyTo>
                 <gx:Wait id="tour_31">
-                    <gx:duration>3</gx:duration>
+                    <gx:duration>1.5</gx:duration>
                 </gx:Wait>
                 <gx:FlyTo id="tour_32">
                     <gx:duration>3</gx:duration>
@@ -242,21 +242,21 @@
                     </LookAt>
                 </gx:FlyTo>
                 <gx:Wait id="tour_33">
-                    <gx:duration>3</gx:duration>
+                    <gx:duration>1.5</gx:duration>
                 </gx:Wait>
                 <gx:FlyTo id="tour_34">
                     <gx:duration>3</gx:duration>
                     <LookAt>
-                        <longitude>-147.84</longitude>
-                        <latitude>64.855</latitude>
+                        <longitude>-147.836656</longitude>
+                        <latitude>64.856942</latitude>
                         <altitude>0</altitude>
                         <heading>0</heading>
                         <tilt>0</tilt>
-                        <range>4000</range>
+                        <range>2000</range>
                     </LookAt>
                 </gx:FlyTo>
                 <gx:Wait id="tour_35">
-                    <gx:duration>3</gx:duration>
+                    <gx:duration>1.5</gx:duration>
                 </gx:Wait>
             </gx:Playlist>
         </gx:Tour>
