@@ -3,14 +3,17 @@
     longitude: -147.849272602435
     latitude:  64.86001660243627
     range: 83
+    wait: 2
   - title: Alaska
     longitude: -147.849272602435
     latitude:  62.86001660243627
     range: 3240000
+    wait: 3
   - title: United States
     longitude: -114.6
     latitude: 48.33
     range: 6500000
+    wait: 3
   - title: Canada
     longitude: -102.6
     latitude: 62.33
@@ -22,10 +25,11 @@
   - title: Europe
     longitude: 6
     latitude: 50
+    wait: 2.5
     range: 4000000
   - title: North Africa
-    longitude: 16
-    latitude: 14
+    longitude: -10.5
+    latitude: 30
     range: 6000000
   - title: South Africa
     longitude: 24
@@ -43,10 +47,11 @@
     longitude: 135
     latitude: 38
     range: 3500000
+    wait: 2
   - title: SouthEast Asia
     longitude: 109.48
     latitude: 10.3
-    range: 7000000
+    range: 6000000
   - title: Austraila
     longitude: 133
     latitude: -27
@@ -68,6 +73,6 @@
     latitude: 20
     range: 1000000
   - title: UAF Campus
-    longitude: -147.84
-    latitude:  64.855
-    range: 4000
+    longitude: -147.836656
+    latitude:  64.856942
+    range: 2000
