@@ -23,6 +23,6 @@ for location in tour:
   flyto.lookat.tilt = location.get('tilt', 0)
   flyto.lookat.roll = location.get('roll', 0)
 
-  wait = playlist.newgxwait(gxduration=location.get('wait', 3))
+  wait = playlist.newgxwait(gxduration=location.get('wait', 1.5))
 
 kml.save('uaf_research_tour.kml')
